@@ -20,10 +20,10 @@ public class AmazonTest {
         driver.manage().window().maximize();
     }
 
-    @Test (description = "Amazon search Test")
+    @Test (description = "Amazon Test")
     public void amazonSearchTest() {
         Double iphonePrice = new HomePage(driver).open().fillSearchInput("Iphone 11").pressSearch().openFirstItem().getItemPrice();
-        Assert.assertTrue( iphonePrice <700, "Iphone 11 is very expensive");
+        Assert.assertTrue( iphonePrice <800, "Iphone 11 is very expensive");
     }
 
 
