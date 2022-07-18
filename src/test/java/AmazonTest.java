@@ -31,10 +31,6 @@ public class AmazonTest {
       public void tearDown() {
        driver.quit();
     }
-    //new test script for now
-//new 123445
 
-
-    //new
 
 }
