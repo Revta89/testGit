@@ -20,7 +20,7 @@ public class AmazonTest {
         driver.manage().window().maximize();
     }
 
-    @Test (description = "Amazon Test")
+    @Test (description = "Amazon test")
     public void amazonSearchTest() {
         Double iphonePrice = new HomePage(driver).open().fillSearchInput("Iphone 11").pressSearch().openFirstItem().getItemPrice();
         Assert.assertTrue( iphonePrice <800, "Iphone 11 is very expensive");
@@ -31,7 +31,7 @@ public class AmazonTest {
       public void tearDown() {
        driver.quit();
     }
-
+    //test 444
 
 
 }
