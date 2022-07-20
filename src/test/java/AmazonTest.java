@@ -26,12 +26,14 @@ public class AmazonTest {
         Assert.assertTrue( iphonePrice <800, "Iphone 11 is very expensive");
     }
 
-//new search
+
     @AfterClass (description = "Close browser")
+    // test comment
       public void tearDown() {
        driver.quit();
+       // test comment 2
     }
-// new test
-//new
+
+
 
 }
