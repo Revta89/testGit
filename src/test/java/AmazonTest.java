@@ -28,10 +28,12 @@ public class AmazonTest {
 
 //new search
     @AfterClass (description = "Close browser")
+    // test comment
       public void tearDown() {
        driver.quit();
+       // test comment 2
     }
-// new test
-//new
+
+
 
 }
