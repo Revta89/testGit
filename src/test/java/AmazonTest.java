@@ -23,7 +23,7 @@ public class AmazonTest {
     @Test (description = "Amazon test")
     public void amazonSearchTest() {
         Double iphonePrice = new HomePage(driver).open().fillSearchInput("Iphone 11").pressSearch().openFirstItem().getItemPrice();
-        Assert.assertTrue( iphonePrice <800, "Iphone 11 is very expensive");
+        Assert.assertTrue( iphonePrice <800, "Iphone 11 is expensive");
     }
 
 
